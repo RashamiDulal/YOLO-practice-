@@ -45,7 +45,7 @@ while True:
 
     cv2.imshow("YOLO Detection + Voice Alert", plot_frame)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('e'):
         break
 
 camera.release()

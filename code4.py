@@ -54,8 +54,8 @@ while True:
     # Show the frame
     cv2.imshow("YOLO Detection + Voice Alert", plot_frame)
 
-    # Press 'q' to quit
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    # Press 'e' to quit
+    if cv2.waitKey(1) & 0xFF == ord('e'):
         break
 
 # Release resources
