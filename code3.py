@@ -1,3 +1,9 @@
+#Python Code (With YOLO11 + Voice Alert)
+# for voice alert download pyttsx3 in cmd
+#step to downloads:
+#C:\Users\ACER\OneDrive\Desktop\yoloP1>C:.venv\Scripts\python.exe code3.py
+#C:\Users\ACER\OneDrive\Desktop\yoloP1>C:\Users\ACER\OneDrive\Desktop\yoloP1\.venv\Scripts\python.exe code3.py
+
 import cv2
 from ultralytics import YOLO
 import pyttsx3
