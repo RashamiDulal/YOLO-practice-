@@ -1,3 +1,6 @@
+#Python Code (With YOLO11 + Voice Alert with 0.7s Delay)
+#Voice now repeats while the object is visible, but only every 0.7 seconds.
+
 import cv2
 from ultralytics import YOLO
 import pyttsx3
@@ -17,7 +20,7 @@ alert_classes = ['person', 'dog', 'cat', 'car']
 
 # Track last alert time for each class
 last_alert_time = {cls: 0 for cls in alert_classes}
-alert_delay = 0.9  # seconds between repeated alerts
+alert_delay = 0.7  # seconds between repeated alerts
 
 # Function to speak in a separate thread
 def speak(text):
